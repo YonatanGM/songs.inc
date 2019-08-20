@@ -2,16 +2,20 @@ from telethon import TelegramClient, events, utils
 from telethon.tl.types import InputBotInlineResult
 import pandas as pd
 from fuzzywuzzy import process
-import numpy, random, logging, csv
-
-
+import numpy, random, logging, csv, argparse 
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
 level=logging.WARNING)
 
-api_id = 937875
-api_hash = '91895d720754903477ed269223104595'
-TOKEN = '813113477:AAHhTvv1WwlpBCjZ6N3WDbXFHPjvOymrg9A'
+parser = argparse.ArgumentParser()
+parser.add_argument('-t', '--TOKEN', required=True)
+parser.add_argument('-i', '--api_id', type=int, required=True)
+parser.add_argument('-q', '--api_hash', required=True)
+args = parser.parse_args()
+
+TOKEN = args.TOKEN
+api_id = args.api_id
+api_hash = args.api_hash
 
 bot = TelegramClient('bot', api_id, api_hash).start(bot_token=TOKEN)
 
