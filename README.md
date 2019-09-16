@@ -2,7 +2,7 @@
 songs.inc is a large collection of songs scrapped from telegram. You can search any song by name or arist.
 You can also share your tracks and support our database. 
 
-[check Songs.inc](https://t.me/Tele_fileBot)
+[Songs.inc](https://t.me/Tele_fileBot)
 
 It uses approximate string matching, so don't worry about typos :) 
 
