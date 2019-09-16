@@ -11,6 +11,8 @@ It uses approximate string matching, so don't worry about typos :)
 ## Usage
 `python bot.py -t <TOKEN> -i <api_id> -q <api_hash>` to start bot 
 
+inline search 
+![interface](Capture.PNG)
 
 
 
