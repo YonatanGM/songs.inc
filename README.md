@@ -4,8 +4,6 @@ You can also share your tracks and support the database.
 
 [Songs.inc](https://t.me/Tele_fileBot)
 
-It uses approximate string matching, so don't worry about typos :) 
-
 ## Install
 1. download project 
 2. run `pip install -r requirements`
