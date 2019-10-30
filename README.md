@@ -1,6 +1,7 @@
 # songs.inc
-songs.inc is a collection of songs scrapped from telegram. You can search any song by name or arist.
-You can also share your tracks and support the database. 
+songs.inc is a collection of songs scrapped from telegram. You can search any song by name or arist. You can also share your tracks and support the database. 
+
+-the collection is just 4000 songs now. Due to telegram's flood wait limit, I am not able to scrape media continously; the scrapper script is handling this, but there seems to be no way to avoid the wait. 
 
 [Songs.inc](https://t.me/Tele_fileBot)
 
